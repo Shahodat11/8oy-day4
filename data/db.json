@@ -1,9 +1,14 @@
 {
-    "blogs":[
-        {
-            "id":"1",
-            "title":"Hello server"
-        }
-    ],
-    "users":[]
+  "users": [
+    {
+      "id": "f3e1",
+      "name": "laylo",
+      "age": "19"
+    },
+    {
+      "id": "395c",
+      "name": "john",
+      "age": "45"
+    }
+  ]
 }

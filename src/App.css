@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    background-image: url(../src/assets/img.avif);
+}
+.buttons {
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    border: 3px solid #ddd;
+    margin-right: 10px;
+    color: #0009;
+    font-family: sans-serif;
+}
+.buttons:hover {
+    color: blue;
+    transition: all .3s linear;
+    border: 2px solid blue;
+}

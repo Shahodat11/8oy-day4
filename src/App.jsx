@@ -1,12 +1,12 @@
-import { useState } from 'react'
 import './App.css'
+import UsersFetch from './components/userFetch/UsersFetch'
+// import img from './assets/img.avif'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    </>
+    <div className='container'>
+    <UsersFetch/>
+    </div>
   )
 }
 
